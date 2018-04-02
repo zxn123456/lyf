@@ -13,6 +13,7 @@ html,body,#root, .App{
       .box{
           @include rect(100%,100%);
           @include flexbox();
+          
           @include flex-direction(column);
           header{
             @include rect(100%, 0.44rem);

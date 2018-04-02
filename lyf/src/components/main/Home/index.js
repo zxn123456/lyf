@@ -25,8 +25,10 @@ class Home extends Component {
 			        		<i className="iconfont icon-xiangxiajiantou"></i>
 			        	</li>
 			        	<li className="search">
-			        		<i className="iconfont icon-sousuo"></i>
-			        		青团
+			        		<Link to={'/search'}>
+			        			<i className="iconfont icon-sousuo"></i>
+			        			青团
+			        		</Link>
 			        	</li>
 			        	<li  className="rightControl">
 			        		<i className="iconfont icon-xiaoxi1"></i>

@@ -7,6 +7,7 @@ import App from '@/components/App';
 import Detail from '@/components/Detail';
 import Login from '@/components/Login';
 import Register from '@/components/Register';
+import Search from '@/components/Search';
 import registerServiceWorker from '@/registerServiceWorker';
 
 ReactDOM.render(
@@ -14,6 +15,7 @@ ReactDOM.render(
     <Switch>
       <Route path = "/register" component = { Register } />
       <Route path = "/login" component = { Login } />
+      <Route path = "/search" component = { Search } />
       <Route path = "/detail/:goodsID" component = { Detail } />
       <Route path = "/" component = { App } />
     </Switch>

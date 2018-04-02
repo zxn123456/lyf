@@ -5,6 +5,7 @@ import Home from '@/components/main/Home/index';
 import Kind from '@/components/main/Kind/index';
 import Cart from '@/components/main/Cart/index';
 import User from '@/components/main/User/index';
+import Search from '@/components/Search';
 import Login from '@/components/Login';
 import Register from '@/components/Register';
 
@@ -20,6 +21,7 @@ class App extends Component {
         		<Route path="/user" component={User} />
         		<Route path="/login" component={Login} />
         		<Route path="/register" component={Register} />
+        		<Route path="/search" component={Search} />
         		<Redirect to = {{pathname:"/home"}} />
         	</Switch>
         </div>
