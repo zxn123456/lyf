@@ -1,0 +1,243 @@
+@import '~@/lib/reset.scss';
+#shouyin{
+    
+
+dl{
+    @include flexbox();
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: space-around;
+   
+}
+
+.ui-row-flex {
+    width: auto;
+    line-height: 30px;
+}
+.ui-border-b {
+    position: relative;
+    border: 0!important;
+}
+.mgT10 {
+    margin-top: 10px;
+}
+.bgfffac4 {
+    background: #fffac4;
+}
+.ui-whitespace {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.ui-row-flex .ui-col {
+    float: none;
+    -webkit-box-flex: 1;
+    width: 0;
+}
+.pdB5 {
+    padding-bottom: 5px;
+}
+.pdT5 {
+    padding-top: 5px;
+}
+.pdT5 {
+//  padding-top: 5px;
+}
+.text-center {
+    text-align: center;
+}
+//.text-center {
+//  text-align: center;
+//}
+.lyf-icons-clock {
+    width: 12px;
+    height: 12px;
+    background-position: -248px -248px;
+}
+.lyf-icons {
+    display: inline-block;
+    vertical-align: middle;
+    background-image: url(http://m.static.laiyifen.com/images/lyf-icons.png?v=1522760490361);
+    background-repeat: no-repeat;
+    background-size: 375px auto;
+}
+.mgR5 {
+    margin-right: 5px;
+}
+.f14 {
+    font-size: 14px!important;
+}
+.c0 {
+    color: #000!important;
+}
+.ui-border-b:after {
+    content: " ";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    border: 1px solid #e0e0e0;
+}
+.pdB5 {
+    padding-bottom: 5px;
+}
+.pdT5 {
+    padding-top: 5px;
+}
+
+.bgf {
+    background: #fff;
+}
+.ui-row {
+    display: block;
+    overflow: hidden;
+}
+.ui-col-33 {
+    width: 33.3333%;
+}
+.ui-col {
+    float: left;
+//  -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+//  width: 100%;
+}
+li {
+    list-style: none;
+}
+.ui-col-67 {
+    width: 66.6666%;
+}
+.ui-col {
+    float: left;
+//  -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+//  width: 100%;
+}
+li {
+    list-style: none;
+}
+.mgL20 {
+    margin-left: 20px;
+}
+.c6 {
+    color: #666!important;
+}
+.f12 {
+    font-size: 12px!important;
+}
+
+.f12 {
+    font-size: 12px!important;
+}
+.c0 {
+    color: #000!important;
+}
+.cff6900 {
+    color: #ff6900;
+}
+.ui-list>li.ui-border-t:first-child, .ui-list>li:first-child>.ui-border-t {
+//  border: 0;
+    background-image: none;
+}
+
+.ui-list>li {
+    margin-left: 15px;
+}
+//.ui-list>li {
+//  margin-left: 10px;
+//}
+.ui-list>li {
+    position: relative;
+//  margin-left: 15px;
+    display: -webkit-box;
+}
+.ui-list-img>span>img{
+    width: 50px;
+    height: 50px;
+}
+
+ .ui-list-img{
+    position: relative;
+    margin: 10px 10px 10px 0;
+}
+
+ 
+.ui-list-info {
+    -webkit-box-flex: 1;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-box-pack: center;
+    padding-right: 15px;
+}
+.ui-list li h4 {
+    font-size: 16px;
+}
+.ui-nowrap {
+    max-width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+h1, h2, h3, h4, h5, h6 {
+//  font-size: 100%;
+    font-weight: 400;
+}
+.ui-list-info p {
+    color: #777;
+    font-size: 14px;
+}
+
+.ui-nowrap {
+    max-width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.c6 {
+    color: #666!important;
+}
+
+.f12 {
+    font-size: 12px!important;
+}
+.min51 {
+    min-width: 51px;
+}
+.text-right {
+    text-align: right;
+}
+.ui-list-info {
+    -webkit-box-flex: 1;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-box-pack: center;
+    padding-right: 15px;
+}
+.f14 {
+    font-size: 14px!important;
+}
+.marR15 {
+    margin-right: 15px;
+}
+.cb2 {
+    color: #b2b2b2;
+}
+.r11 {
+    margin-top: 23px;
+    right: 10px;
+}
+.c80 {
+    color: grey;
+}
+.ui-panel-title-tips {
+    font-size: 12px;
+//  color: #777;
+    position: absolute;
+//  right: 15px;
+}
+}

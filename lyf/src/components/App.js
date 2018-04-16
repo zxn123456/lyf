@@ -6,6 +6,7 @@ import Kind from '@/components/main/Kind/index';
 import Cart from '@/components/main/Cart/index';
 import User from '@/components/main/User/index';
 import Login from '@/components/Login';
+import Search from '@/components/Search';
 import Register from '@/components/Register';
 
 class App extends Component {
@@ -16,6 +17,7 @@ class App extends Component {
         	<Switch>
         		<Route path="/home" component={Home} />
         		<Route path="/kind" component={Kind} />
+            <Route path="/search" component={Search} />
         		<Route path="/cart" component={Cart} />
         		<Route path="/user" component={User} />
         		<Route path="/login" component={Login} />

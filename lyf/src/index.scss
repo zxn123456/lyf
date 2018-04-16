@@ -13,10 +13,21 @@ html,body,#root, .App{
       .box{
           @include rect(100%,100%);
           @include flexbox();
+          
           @include flex-direction(column);
           header{
             @include rect(100%, 0.44rem);
 //          @include background-color(pink);
+            section{
+               .kindname{
+                  width:30%;
+                  border:1px solid #000;
+
+                   li{
+                       
+                   }
+               }
+            }
             ul{
                 @include rect(100%,100%);
                 @include flexbox();
@@ -55,7 +66,8 @@ html,body,#root, .App{
     }
     footer{
         @include rect(100%, 0.5rem);
-        @include background-color(#eee);
+        @include background-color(#fff);
+        z-index: 100;
         ul{
             @include rect(100%,100%);
             @include flexbox();

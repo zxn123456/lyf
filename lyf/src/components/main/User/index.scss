@@ -1,0 +1,571 @@
+.box{
+    overflow:auto;
+    background-color:#eee;
+}
+.my-info{
+    position: relative;
+    height: 162px;
+    width: 100%;
+    background: linear-gradient(top,#ffb300,#ff6c00);
+    background: -webkit-linear-gradient(top,#ffb300,#ff6c00);
+    .login-status {
+        padding-top: 54px;
+        color: #fff;
+       
+        font-size: 17px;
+        .avatar {
+            vertical-align: middle;
+            margin-left: 16px;
+            margin-right: 10px;
+            font-size: 0;
+            .ui-tiled{
+                display: -webkit-box;
+                width: 100%;
+                -webkit-box-sizing: border-box;
+                li {
+                    -webkit-box-flex: 1;
+                    width: 100%;
+                    text-align: center;
+                    display: -webkit-box;
+                    -webkit-box-orient: vertical;
+                    -webkit-box-pack: center;
+                    -webkit-box-align: center;
+                     div {
+                        display: inline-block;
+                        span {
+                            display: block;
+                            border-radius: 15px;
+                            background: #ffc600;
+                            padding: 0 4px;
+                            color: #fff;
+                            font-size: 12px;
+                            min-width: 30px;
+                        }
+                    }
+                     i {
+                        color: #fff;
+                        font-size: 12px;
+                        display: block;
+                        margin-top: 4px;
+                        }
+                }
+            }
+        }
+        .BGT {
+            background: 0 0!important;
+            font-size: 14px;
+            margin: 0 0 2px 5px;
+            text-align: center;
+            li{
+                div{
+                    display: inline-block;
+                    
+                }
+            }
+            
+        }
+        .qrcode-btn {
+            position: absolute;
+            right: 0;
+            bottom: 1px;
+            width: 75px;
+            font-size: 12px;
+            text-align: right;
+            padding-right: 5px;
+            height: 30px;
+            line-height: 30px;
+            color: #fff;
+            background: #ff4b14;
+            border-radius: 15px 0 0 15px;
+            -webkit-border-radius: 15px 0 0 15px;
+            .qrcode-icon-1 {
+                display: inline-block;
+                margin-right: 4px;
+                vertical-align: middle;
+                height: 15px;
+                width: 16px;
+                background-position: 0 0;
+                background: url(http://m.static.laiyifen.com/images/qrcode-icon.png?v=1521953083592) no-repeat;
+                background-size: 150px auto;
+                -webkit-background-size: 150px auto;
+            }
+        }
+    }
+    .tool-msg {
+        position: absolute;
+        right: 15px;
+        top: 20px;
+    
+    }
+    .lyf-icons-home1 {
+        width: 20px;
+        height: 20px;
+        background-position: -213px -213px;
+    }
+    .lyf-icons {
+        display: inline-block;
+        vertical-align: middle;
+        background-image: url(http://m.static.laiyifen.com/images/lyf-icons.png?v=1521953083592);
+        background-repeat: no-repeat;
+        background-size: 375px auto;
+    }
+    .tool-set {
+        position: absolute;
+        right: 50px;
+        top: 20px;
+    }
+    .lyf-icons-home2 {
+        width: 21px;
+        height: 20px;
+        background-position: -248px -213px;
+    }
+    .lyf-icons-sign {
+        width: 20px;
+        height: 20px;
+        background-position: -71px -531px;
+    }
+    .sign {
+        position: absolute;
+        top: 20px;
+        left: 15px;
+    }
+    
+}
+/////er
+div{
+        .my-income-new {
+            height: 42px;
+            background: url(http://m.static.laiyifen.com/images/sales-bg.png?v=1521953083592);
+            background-repeat: no-repeat;
+            vertical-align: middle;
+            background-size: 100%;
+            text-align: center;
+            img{
+                width: 65px;
+                position: relative;
+                top: -6px;
+            }
+        }
+        .ui-panel h2, .ui-panel h3 {
+            padding-left: 15px;
+            padding-right: 15px;
+            line-height: 44px;
+            position: relative;
+            overflow: hidden;
+            display: -webkit-box;
+        }
+        .c9 {
+            color: #999;
+        }
+        
+        .icons4-qiyizhuan {
+            width: 18px;
+            height: 21px;
+            background-position: -175px -479px;
+            background-size: 375px auto;
+        }
+        ui-panel {
+            h2{
+                i{
+                    width: 18px;
+                    height: 21px;
+                    background-position: -175px -479px;
+                    background-size: 375px auto;
+
+                }
+                .mgT3 {
+                    margin-top: 3px;
+                }
+                
+            }
+            
+        }
+        .menu-box  {
+    
+            .menu{
+                border-top:1px solid #eee;
+                background-color: #fff;
+                clear: both;
+                overflow: hidden;
+                .item_3{
+                    width:50%;
+                    p{
+                        
+                        .icons4-income {
+                            width: 30px;
+                            height: 30px;
+                            background-size: 375px auto;
+                            display: inline-block;
+                            vertical-align: middle;
+                            background-image: url(http://m.static.laiyifen.com/images/icons4.png?v=1521953083592);
+                            background-repeat: no-repeat;
+                            background-size: 335px auto;
+                        }
+                        .lyf-icons-myChat {
+                            display: inline-block;
+                            vertical-align: middle;
+                            background-image: url(http://m.static.laiyifen.com/images/lyf-icons.png?v=1521953083592);
+                            background-repeat: no-repeat;
+                            background-size: 375px auto;
+                            width: 30px;
+                            height: 30px;
+                            background-position: -284px -532px;
+                        }
+                    }
+                    
+                }
+                .item_3:first-child {
+                    padding-left: 85px;
+                    
+                }
+                .item_3:last-child {
+                    padding-right: 85px;
+                }
+                .mgT5 {
+                        margin-top: 5px;
+                    }
+            }
+            
+        }
+    }
+#user-right{
+    font-size: 12px;
+    line-height: 12px;
+    text-align: right;
+    top: 12px;
+    font-weight: 100;
+    line-height: 12px;
+    text-align: right;
+    top:12px;
+    margin-top: 15px;
+    margin-left: 200px;
+    padding-right: 20px;    
+    span{
+        color: #ff6900;
+    }
+}
+.icons2 {
+            display: inline-block;
+            vertical-align: middle;
+            background-image: url(http://m.static.laiyifen.com/images/icons2.png?v=1521953083592);
+            background-repeat: no-repeat;
+            background-size: 375px auto;
+        }
+
+ .menu-box .menu .item {
+    width: 25%;
+    padding: 15px 0;
+    text-align: center;
+    float: left;
+    box-sizing: border-box;
+}
+.ui-panel-simple{
+    background-color:#fff;
+    h2{
+        padding-left: 15px;
+        padding-right: 15px;
+        line-height: 44px;
+        position: relative;
+        overflow: hidden;
+        display: -webkit-box;
+        .icons4-order {
+            width: 15px;
+            height: 19px;
+            background-position: -38px -72px;
+            background-size: 375px auto;
+            display: inline-block;
+            vertical-align: middle;
+            background-image: url(http://m.static.laiyifen.com/images/icons4.png?v=1521953083592);
+            background-repeat: no-repeat;
+            // background-size: 335px auto;
+        }
+        span{
+                margin-top: 3px;
+            display: block;
+            .icons2-arrow-r {
+                width: 10px;
+                height: 15px;
+                background-position: -36px -248px;
+                display: inline-block;
+                vertical-align: middle;
+                background-image: url(http://m.static.laiyifen.com/images/icons2.png?v=1521953083592);
+                background-repeat: no-repeat;
+                // background-size: 375px auto;
+            }
+        }
+        #dingdan{
+            font-size: 12px;
+            color: #777;
+            position: absolute;
+            right: 15px;
+        }
+    }
+}
+.pdB10 {
+    background-color:#fff;
+    padding: 10px 0;
+    display:flex;
+    li{
+        flex:1;
+        -webkit-box-flex: 1;
+        width: 100%;
+        text-align: center;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-box-pack: center;
+        -webkit-box-align: center;
+        .icons-au {
+            display: inline-block;
+            vertical-align: middle;
+            background-image: url(http://m.static.laiyifen.com/images/icons-au.png?v=1521953083592);
+            background-repeat: no-repeat;
+            background-size: 335px auto;
+        }
+        .icons-au-5 {
+            width: 30px;
+            height: 25px;
+            background-position: 0 -95px;
+        }
+        .icons-au-6 {
+            width: 30px;
+            height: 25px;
+            background-position: 3px -126px;
+        }
+        .icons-au-7 {
+            width: 30px;
+            height: 25px;
+            background-position: 3px -157px;
+        }
+        .icons-au-8 {
+            width: 30px;
+            height: 25px;
+            background-position: 3px -189px;
+        }
+        .icons-au-9 {
+            width: 30px;
+            height: 25px;
+            background-position: 3px -222px;
+        }
+        span{
+            font-size:12px;
+        }
+    }
+}
+.mgT10 {
+    background-color:#fff;
+    margin-top: 10px;
+    
+    
+    .ui-panel-simple {
+        margin-bottom: 0;
+        h2{
+            padding-left: 15px;
+            padding-right: 15px;
+            line-height: 44px;
+            position: relative;
+            overflow: hidden;
+            display: -webkit-box;
+            .icons4-purse {
+                width: 16px;
+                height: 19px;
+                background-position: -38px -107px;
+                background-size: 375px auto;
+                display: inline-block;
+                vertical-align: middle;
+                background-image: url(http://m.static.laiyifen.com/images/icons4.png?v=1521953083592);
+                background-repeat: no-repeat;
+                
+            }
+            span{
+                display:block;
+            }
+            .quanbu{
+                font-size: 13px;
+                margin-top: 3px;
+                font-width:100;
+                color: grey!important;
+                position: absolute;
+                right: 15px;
+                .icons2 {
+                    display: inline-block;
+                    vertical-align: middle;
+                    background-image: url(http://m.static.laiyifen.com/images/icons2.png?v=1521953083592);
+                    // background-repeat: no-repeat;
+                    // background-size: 375px auto;
+                }
+            }
+        }
+    }
+    .ui-whitespace {
+        display:flex;
+        padding-left: 15px;
+        padding-right: 15px;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        .ui-col {
+            flex:1;
+            float: none;
+            -webkit-box-flex: 1;
+            width: 0;
+            p{
+                    color: #ff6900;
+                    text-align:center;
+                    span{
+                        font-size: 12px;
+                    }
+            }
+        }
+    }
+    .pdB15 {
+        padding-bottom: 15px;
+            .ui-col {
+                float: none;
+                -webkit-box-flex: 1;
+                width: 0;
+                span{
+                    font-size:12px;
+                }
+            }
+    }
+}
+.menu-box {
+    background-color: #fff;
+    margin-top: 10px;
+    .menu {
+        background-color: #fff;
+        clear: both;
+        overflow: hidden;
+        .item {
+            width: 25%;
+            padding: 15px 0;
+            text-align: center;
+            float: left;
+            box-sizing: border-box;
+            p{
+                .icons4 {
+                    display: inline-block;
+                    vertical-align: middle;
+                    background-image: url(http://m.static.laiyifen.com/images/icons4.png?v=1521953083592);
+                    background-repeat: no-repeat;
+                    background-size: 335px auto;
+                }
+                .icons4-15 {
+                    width: 30px;
+                    height: 30px;
+                    background-position: 0 -316px;
+                }
+                .icons4-16 {
+                    width: 30px;
+                    height: 30px;
+                    background-position: 0 -346px;
+                }
+                .icons4-1 {
+                    width: 30px;
+                    height: 30px;
+                    background-position: 0 2px;
+                }
+                .icons4-7 {
+                    width: 30px;
+                    height: 30px;
+                    background-position: 0 -191px;
+                }
+                .icons4-9 {
+                        width: 30px;
+                        height: 30px;
+                        background-position: 0 -250px;
+                    }
+                    .icons4-10 {
+                        width: 30px;
+                        height: 30px;
+                        background-position: 0 -282px;
+                    }
+                    .icons4-4 {
+                        width: 30px;
+                        height: 30px;
+                        background-position: 0 -95px;
+                    }
+                    .icons4-11 {
+                        width: 30px;
+                        height: 30px;
+                        background-position: -30px 3px;
+                    }
+            }
+            
+        }
+    }
+    .ui-border-t {
+                position: relative;
+                border: 0!important;
+                p{
+                    .icons4 {
+                        display: inline-block;
+                        vertical-align: middle;
+                        background-image: url(http://m.static.laiyifen.com/images/icons4.png?v=1521953083592);
+                        background-repeat: no-repeat;
+                        background-size: 335px auto;
+                    }
+                    .icons4-5 {
+                        width: 30px;
+                        height: 30px;
+                        background-position: 0 -126px;
+                    }
+                    .icons4-6 {
+                        width: 30px;
+                        height: 30px;
+                        background-position: 0 -158px;
+                    }
+                    .icons2 {
+                        display: inline-block;
+                        vertical-align: middle;
+                        background-image: url(http://m.static.laiyifen.com/images/icons2.png?v=1521953083592);
+                        background-repeat: no-repeat;
+                        background-size: 375px auto;
+                    }
+                    .icons2-redPacket {
+                        width: 30px;
+                        height: 30px;
+                        background-position: -71px -246px;
+                    }
+                    .icons4-9 {
+                        width: 30px;
+                        height: 30px;
+                        background-position: 0 -250px;
+                    }
+                    .icons4-10 {
+                        width: 30px;
+                        height: 30px;
+                        background-position: 0 -282px;
+                    }
+                    .icons4-4 {
+                        width: 30px;
+                        height: 30px;
+                        background-position: 0 -95px;
+                    }
+                    .icons4-11 {
+                        width: 30px;
+                        height: 30px;
+                        background-position: -30px 3px;
+                    }
+                    .icons4-14 {
+                        width: 30px;
+                        height: 30px;
+                        background-position: -30px -122px;
+                    }
+                    .icons4-2 {
+                        width: 30px;
+                        height: 30px;
+                        background-position: 3px -30px;
+                    }
+                    .icons4-18 {
+                        width: 30px;
+                        height: 30px;
+                        background-position: -29px -376px;
+                    }
+                }
+            }
+}
+
+#bottom{
+    margin-bottom: 10px;
+}
+

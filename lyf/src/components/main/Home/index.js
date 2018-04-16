@@ -2,6 +2,7 @@ import React,{ Component } from 'react';
 import Swiper from 'swiper';
 import homeData from '@/api/homeData.js';
 import { Link } from 'react-router-dom';
+import store from '@/store/index.js'
 import { Carousel, WhiteSpace, WingBlank } from 'antd-mobile';
 import './index.scss'
 
@@ -12,9 +13,8 @@ class Home extends Component {
 	    imgHeight: 176,
 	    slideIndex: 0,
 	    navlist:[],
-	    homelist:[]
+		homelist:[]
 	}
-
 	render(){
 		return (
 			<div className="box">
@@ -25,8 +25,10 @@ class Home extends Component {
 			        		<i className="iconfont icon-xiangxiajiantou"></i>
 			        	</li>
 			        	<li className="search">
-			        		<i className="iconfont icon-sousuo"></i>
-			        		青团
+			        		<Link to={'/search'}>
+			        			<i className="iconfont icon-sousuo"></i>
+			        			青团
+			        		</Link>
 			        	</li>
 			        	<li  className="rightControl">
 			        		<i className="iconfont icon-xiaoxi1"></i>
@@ -104,38 +106,73 @@ class Home extends Component {
 						          autoplay
 						          infinite
 						        >
-						          <div className="v-item">
-						          	<ul className="list">
-										<li className="ui-nowrap">
+								<div className="v-item" >
+									<ul className="list">
+										<li className="ui-nowrap" style={{padding:0}}>
+											<Link to={'/xinwen'}>
+											<i className="iconfont icon-laba"></i>
+											<span>【十里花海】春花“脸盲症”，你又“花痴”了吗？</span>
+											</Link>
+										</li>
+										<li className="ui-nowrap" style={{ padding: 0 }}>
+											<Link to={'/xinwen'}>
+											<i className="iconfont icon-laba"></i>
+											<span>【十里花海】春花“脸盲症”，你又“花痴”了吗？</span>
+											</Link>
+										</li>
+									</ul>
+								</div>
+								<div className="v-item">
+									<ul className="list">
+										
+										<li className="ui-nowrap" style={{ padding: 0 }}>
+										<Link to={'/xinwen'}>
+											<i className="iconfont icon-laba"></i>
+											<span>【玩转米线】云南这么多种米线，你都吃过吗？</span>
+										</Link>
+										</li>
+									</ul>
+								</div>
+								<div className="v-item">
+									<ul className="list">
+										<li className="ui-nowrap" style={{ padding: 0 }}>
+											<Link to={'/xinwen'}>
 											<i className="iconfont icon-laba"></i>
 											<span>【坚果探源】巴西松子竟然不是巴西产的！</span>
+											</Link>
 										</li>
 									</ul>
-						          </div>
-						           <div className="v-item">
-						          	<ul className="list">
-										<li className="ui-nowrap">
+								</div>
+								<div className="v-item">
+									<ul className="list">
+										<li className="ui-nowrap" style={{ padding: 0 }}>
+											<Link to={'/xinwen'}>
 											<i className="iconfont icon-laba"></i>
 											<span>【青团】天青色等烟雨，而我在等你！</span>
+											</Link>
 										</li>
 									</ul>
-						          </div>
-						          <div className="v-item">
-						          	<ul className="list">
-										<li className="ui-nowrap">
+								</div>
+								<div className="v-item">
+									<ul className="list">
+										<li className="ui-nowrap" style={{ padding: 0 }}>
+											<Link to={'/xinwen'}>
 											<i className="iconfont icon-laba"></i>
-											<span>【【听说有人犯困】如何叫醒一个春困的人？</span>	
+											<span>【踏青寻色】我想把春天吃进肚子里</span>
+											</Link>
 										</li>
 									</ul>
-						          </div>
-						          <div className="v-item">
-						          	<ul className="list">
-										<li className="ui-nowrap">
+								</div>
+								<div className="v-item">
+									<ul className="list">
+										<li className="ui-nowrap" style={{ padding: 0 }}>
+											<Link to={'/xinwen'}>
 											<i className="iconfont icon-laba"></i>
 											<span>【长沙早晨】去长沙只吃臭豆腐？你不能错过的嗦粉地图！</span>
+											</Link>
 										</li>
 									</ul>
-						          </div>
+								</div>
 						        </Carousel>
 						</div>
 					</div>
@@ -199,7 +236,8 @@ class Home extends Component {
 						{
 							this.state.homelist.map((item,index)=>{
 							return (
-								<li className="wrap" key={item.productId}>
+								<li className="wrap" key={item.code}>
+								<Link to={'/detail/'+item.code}>
 									<div className="item">
 										<div className="prod-img">
 											<img style ={{height:'161px'}}src={item.picUrl}/>
@@ -212,6 +250,7 @@ class Home extends Component {
 											<i className="iconfont icon-gouwuche"></i>
 										</span>
 									</div>
+									</Link>
 								</li>
 							)
 						})
@@ -219,63 +258,60 @@ class Home extends Component {
 					
 					
 					</ul>
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
+				</div>
+				<div id="list">
 				</div>
 			</div>
+			
+			
 		)
 	}
-	 componentDidMount(){
+	componentDidMount(){
 	 	  var swiper = new Swiper('.swiper-container', {
 	      slidesPerView: 3,
 	      spaceBetween: 2,
 	      pagination: {
 	        el: '.swiper-pagination',
 	        clickable: true,
-	      },
-	    }); 
+	      }
+	    });
 	    
 	     setTimeout(() => {
 	      this.setState({
-	        data: ['AiyWuByWklrrUDlFignR', 'TekJlZRVCjLFexlOCuWn', 'IJOtIlfsYdTyaDTRVrLI'],
+	        data: ['AiyWuByWklrrUDlFignR', 'TekJlZRVCjLFexlOCuWn', 'IJOtIlfsYdTyaDTRVrLI']
 	      });
-	    }, 100);
-	 }
-	 
-	componentDidMount() {
+	    }, 100)
+	} 
+	componentDidMount(){
 	    homeData.bannerList((data) => {
-	      console.log(data)
+	      store.dispatch({
+				type:"HOME_BANNER",
+				data:data
+			})
 	      this.setState({
 	        bannerlist: data
 	      })
-	    }),
+	    })
 	    
 	    homeData.navList((data)=>{
-	    	console.log(data)
+	    	store.dispatch({
+				type:"NAV_LIST",
+				data:data
+			})
 	    	this.setState({
 	    		navlist:data
 	    	})
-	    }),
+	    })
 	    
-	     homeData.homeList((data)=>{
-		  	console.log(data)
-		  	this.setState({
-		  		homelist:data
-		  	})
-		  })
-	  }
-	  
-	 
-	
-
+		homeData.homeList((data)=>{
+			store.dispatch({
+				type:"HOME_LIST",
+				data:data
+			})
+			this.setState({
+				homelist:data
+			})
+		})
+	}
 }
-
 export default Home;
